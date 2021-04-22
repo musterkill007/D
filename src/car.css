@@ -1,0 +1,150 @@
+#car {
+    width: 190px;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+#car_type{
+    background-color: white;
+    border: 2px solid gray;
+    margin: auto;
+    border-radius: 7px;
+    margin: 7px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#take,#eat{
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+}
+#eat{
+    border-left: 1px solid gray;
+}
+#take_active,#eat_active{
+    width: 84px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid gray;
+    background-color: gray;
+}
+
+#take_img,#eat_img{
+    width: 80%;
+}
+#order_box{
+    width: 160px;
+    margin: auto;
+    padding-bottom:10px ;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+#order_top{
+    width: 170px;
+    height: 30px;
+    background-color: #D63034;
+    position: relative;
+    left: -5px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carList_box{
+    width: 142px;
+    overflow: hidden;
+}
+#order_list{
+    width: 160px;
+    height: 244px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#top_text{
+    color: white;
+    font-size: 15px;
+}
+#bill_box{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    border-bottom: 1px solid gray;
+}
+#bill_top{
+    display: flex;
+    justify-content: space-between;
+}
+#X_box{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid #D63034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#X_box:active{
+    background-color: #D63034;
+}
+#X_img{
+    width: 12px;
+    height: 12px;
+}
+#bill_foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bill_contral{
+    width: 68px;
+    height: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+#bill_numb{
+    width: 16px;
+    height: 16px;
+    border: 1px solid gray;
+    text-align: center;
+    line-height: 16px;
+}
+#carReduce_box,#carAdd_box{
+    width: 16px;
+    height: 16px;
+    border: 1px solid gray ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#carReduce_img,#carAdd_img{
+    width: 8px;
+    height: 8px;
+}
+#bill_name{
+    width: 110px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+#bill_btn{
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #D63034;
+    outline: none;
+    margin: auto;
+}
+#btn_box{
+    width: 150px;
+    height: 30px;
+    margin: auto ;
+}
+#bill_total{
+    margin-left: 30px;
+}

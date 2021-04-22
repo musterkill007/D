@@ -1,0 +1,31 @@
+#sidebar{
+    border: 1px solid gray;
+    border-radius: 7px;
+    height: 500px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+#side_namebox{
+    display: block;
+    width: 160px;
+    height: 40px;
+    background-color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 7px;
+    border: 3px solid #D63034;
+}
+#active{
+    display: block;
+    width: 160px;
+    height: 40px;
+    background-color: #D63034;
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 7px;
+    border: 3px solid #D63034;
+}

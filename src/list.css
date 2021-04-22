@@ -1,0 +1,57 @@
+#body_box{
+    width: 734px;
+    overflow: hidden;
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+#list{
+    width: 750px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    overflow-y: scroll;
+
+}
+#list_box{
+    width: 200px;
+    height: 220px;
+    border: 2px solid gray;
+    margin: 10px 20px;
+    background-color: white;
+    border-radius: 7px;
+    overflow: hidden;
+}
+#list_name{
+    height: 35px;
+    text-align: center;
+
+}
+#list_img {
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#list_price{
+    height: 35px;
+}
+#img_box{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #D63034;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img_box:active{
+    background-color: #610916;
+}
+#price_box{
+    width: 160px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
